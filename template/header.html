@@ -1,0 +1,10 @@
+<div class="header" ng-controller="headerCon">
+    <div class="header6">
+        <div class="header1"><span>Liquors</span> Design</div>
+        <div class="header2">
+            <ul>
+                <li ng-repeat="nav in arr" ng-click="navs($index)" class="{{i==($index+1)?'nav':''}}"><a href="#/nav{{$index+1}}">{{nav}}</a></li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+<div>
+    <div class="index3-banner"><img src="images/banner.jpg"></div>
+    <div class="index4-center">
+        <div class="index4-centerDiv1">留言板</div>
+        <div class="index4-center2">
+            <p>发表您的留言：</p>
+            <div class="index4-center2Div1">
+                <div>姓名：<input type="text" ng-model="name"></div>
+                <div>邮箱：<input type="text" ng-model="mailbox"></div>
+            </div>
+            <div class="index4-center2Div2">电话：<input type="text" ng-model="phone"></div>
+            <div class="index4-center2Div3"><div>内容：</div><textarea ng-model="content"></textarea></div>
+            <div class="index4-center2Div4"><span ng-click="tet()">提交留言</span></div>
+            <p class="index4-center3">留言：</p>
+            <div class="index4-ul">
+                <ul>
+                    <li ng-repeat="stay in arr">
+                        <p>第{{stay.id}}位留言人　^_^<span class="del" ng-click="delete(stay.id)">删除</span></p>
+                        <p>姓名：{{stay.name}}</p>
+                        <p>邮箱：{{stay.mailbox}}</p>
+                        <p>电话：{{stay.phone}}</p>
+                        <p>留言：{{stay.content}}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="index4-footer">
+        <span>上一页</span>1<span>下一页</span>共1页　到第 <input type="text" value=""> 页　<input type="button" value="确定" class="index4-footerBtn">
+    </div>
+</div>

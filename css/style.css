@@ -1,0 +1,565 @@
+/*头部*/
+.header a{
+    text-decoration: none!important;
+    color:black;
+}
+body{
+    min-width: 1903px;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+}
+.header6{
+    width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.header1{
+    float:left;
+    width: 300px;
+    line-height: 150px;
+    color:#999;
+    font-size: 40px;
+}
+.header1 span{
+    color:red;
+}
+.header2{
+    float:left;
+    width: 700px;
+    height: 150px;
+}
+.header2 ul li{
+    display: inline-block;
+    text-align: center;
+    margin-top:50px;
+    font-size: 20px;
+}
+.header2 ul li a{
+    display: inline-block;
+    width: 128px;
+    line-height: 50px;
+}
+.nav{
+    background: red;
+    border-radius: 5px;
+}
+.nav a{
+    color:white;
+}
+/*尾部*/
+.footer{
+    padding:30px 0px;
+    width: 100%;
+    background: #222222;
+}
+.footer p{   
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    color:#999;
+    margin:3px 0px;
+    font-size: 14px;
+}
+/*第一个页面开始*/
+/*轮播*/
+.banner{
+    width: 1200px;
+    height: 450px;
+    overflow: hidden;
+    margin:10px auto;
+    position: relative;
+}
+#banner img{
+    width: 1200px;
+    height: 450px;
+}
+.left{
+    width: 30px;
+    line-height: 100px;
+    background: #999;
+    position: absolute;
+    top:40%;
+    left:20px;
+    font-size: 24px;
+    text-align: center;
+    opacity: .3;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.right{
+    width: 30px;
+    line-height: 100px;
+    background: #999;
+    position: absolute;
+    top:40%;
+    right:20px;
+    font-size: 24px;
+    text-align: center;
+    opacity: .3;
+    cursor:pointer;
+    border-radius: 5px;
+}
+.banner ul{
+    position: absolute;
+    bottom:20px;
+    left:45%;
+}
+.banner ul li{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: 1px solid #999;
+    margin:0px 10px;
+    cursor:pointer;
+    opacity: .5;
+}
+.liang{
+    background: #E5E5E5;
+}
+
+.index1-center{
+    width: 1000px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.index1-center2{
+    width: 200px;
+    float:right;
+}
+.index1-center2 ul li{
+    margin-bottom:20px;
+}
+.index1-center1{
+    float:left;
+    width: 750px;
+}
+.index1-center1Div1{
+    border-bottom:1px solid #999;
+    color:red;
+    line-height: 40px;
+    font-size: 20px;
+}
+.index1-center1Div2{
+    margin-top:10px;
+    width: 750px;
+    overflow: hidden;
+    font-size: 16px;
+    color:#666;
+}
+.index1-center1Div2Div1{
+    float:left;
+    width: 200px;
+}
+.index1-center1Div2Div2{
+    float:right;
+    width: 530px;
+}
+.index1-center1Div2Div3{
+    float:left;
+    margin-bottom:20px;    
+}
+.index1-center1Div1 span{
+    float:right;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    background: red;
+    color:white;
+    text-align: center;
+    margin-top:10px;
+}
+.index1-center1Div4 ul li{
+    color:#666;
+    font-size: 14px;
+    line-height:50px;
+    border-bottom:1px dashed #999; 
+}
+.index1-center1Div4 ul li span{
+    float:right;
+}
+.index1-center1Div4 ul li:last-child{
+    border-bottom:none;
+}
+/*第一个页面结束*/
+/*第二个页面开始*/
+.index2-center{
+    width: 1000px;
+    margin:20px auto;
+    overflow: hidden;
+}
+.index2-center1{
+    overflow: hidden;
+}
+.index2-centerDiv1{
+    float:left;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    background: red;
+    font-size: 16px;
+    color:white;
+    font-weight: bold;
+    padding-left:20px;
+}
+.index2-centerDiv2{
+    float:right;
+    width: 750px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color:red;
+    border-bottom: 1px solid #999;
+}
+.index2-centerDiv2>span{
+    float:right;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 20px;
+    background: red;
+    color:white;
+    margin-top:20px;
+}
+.index2-center2{
+    overflow: hidden;
+}
+.index2-center2Div1{
+    float:left;
+}
+.index2-center2Div1 ul li{
+    border-bottom: 1px dashed #666;
+    margin-left:25px;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+}
+.index2-center2Div1 ul li:last-child{
+    border-bottom: none;
+}
+.index2-center2Div2{
+    float:right;
+    width: 750px;
+    height: 900px;
+}
+.index2-center2Div2Ul1{
+    overflow: hidden;
+
+}
+.index2-center2Div2 ul li{
+    float:left;
+    margin-top:20px;
+    width: 180px;
+    height: 250px;
+    margin-left:5px;
+}
+.index2-center2Div2p1{
+    width: 100%;
+    height: 200px;
+    position:relative;
+}
+.index2-center2Div2p1 img{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+}
+.index2-center2Div2p2{
+    text-align: center;
+    padding:15px;
+    color:#666;
+}
+.index2-center2Div2Ul2{
+    overflow: hidden;
+}
+.index2-center3{
+    font-size: 14px;
+    width: 200px;
+    margin:40px auto;
+}
+.index2-center3 span{
+    margin:0 10px;
+    color:#666;
+    cursor:pointer;
+}
+.index2-center3 span.active{
+    color:red;
+}
+/*第二个页面结束*/
+/*第三个页面开始*/
+.index3-banner{
+    width: 100%;
+    height: 500px;
+}
+.index3-banner img{
+    width: 100%;
+    height: 100%;
+}
+.index3-center{
+    margin:20px auto;
+    width: 1000px;
+}
+.index3-center1{
+    height: 40px;
+    border-bottom: 1px solid #999;
+    font-size: 20px;
+}
+.index3-center1Span1{
+    float:left;
+    color:red;
+}
+.index3-center1Span2{
+    float:right;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius:20px;
+    background: red;
+    color:white;
+    margin-top:5px;
+    cursor:pointer;
+}
+.index3-center2 ul li{
+    line-height: 50px;
+    border-bottom: 1px dashed #999;
+}
+.index3-center2 ul li:last-child{
+    border-bottom:none;
+}
+.index3-center2 a{
+    text-decoration: none!important;
+    color:#666;
+}
+.index3-center2 a:hover{
+    color:red;
+}
+.index3-center2Span2{
+    float: right;
+}
+.index3-center3{
+    margin-top:20px;
+    color:#666;
+}
+.index3-center3 span{
+    margin-right:20px;
+    cursor:pointer;
+}
+
+.index3-center3Span1{
+    color:red;
+}
+/*第三个页面结束*/
+/*第四个页面开始*/
+.index4-center{
+    width: 1000px;
+    margin: 20px auto;
+}
+.index4-centerDiv1{
+    color:red;
+    font-size: 20px;
+    line-height: 50px;
+    border-bottom: 1px solid #999;
+}
+.index4-center2{
+    font-size: 14px;
+    color:#666;
+    width: 950px;
+    margin:20px auto;
+    overflow: hidden;
+}
+.index4-center2Div1{
+    overflow: hidden;
+}
+.index4-center2Div1 div{
+    float:left;
+    margin-top:30px;
+    margin-right:150px;
+}
+.index4-center2Div2{
+    margin-top:20px;
+}
+.index4-center2Div3{
+    margin-top:30px;
+}
+.index4-center2Div3 div{
+    float:left;
+    line-height: 100px;
+}
+.index4-center2Div3 textarea{
+    width: 400px;
+    height: 100px;
+}
+.index4-center2Div4>span{
+    display: block;
+    margin:20px 0px 0px 40px;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    background: red;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.index4-ul{
+    margin:30px;
+}
+.index4-ul>ul>li{
+    padding:10px;
+    margin-bottom:10px;
+    width: 600px;
+    height: 110px;
+    border: 1px dashed #666;
+}
+.index4-ul ul li p{
+    width: 600px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.del{
+    float:right;
+    width: 40px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor:pointer;
+    border: 1px dashed orange;
+}
+.index4-center3{
+    margin-top:20px;
+    line-height: 50px;
+    border-bottom: 1px solid #999;
+}
+.index4-center4{
+    line-height: 50px;
+}
+.index4-footer{
+    width: 410px;
+    margin:20px auto;
+    color:#666;
+    font-size: 14px;
+}
+.index4-footer span{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #999;
+    margin:0px 10px;
+    color:#999;
+}
+.index4-footer input{
+    width: 40px;
+    color:#666;
+    text-align: center;
+}
+.index4-footerBtn{
+    cursor:pointer;
+    width: 30px;
+}
+/*第四个页面结束*/
+/*登录注册*/
+.login{
+    margin:50px auto;
+    width: 549px;
+    height: 567px;
+    border: 1px solid #E5E5E5;
+    overflow: hidden;
+}
+.login-div1{
+    overflow: hidden;
+    font-size: 24px;
+}
+.login-div1 span{
+    cursor:pointer;
+    display: inline-block;
+    width: 269px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border:1px solid #E5E5E5;
+}
+.login-div1 span:last-child{
+    margin-right:0px;
+}
+.login-span{
+    background: red;
+    color:white;
+    width: 270px;
+    height: 50px;
+    line-height: 50px;
+}
+.login-div2{
+    width: 550px;
+    margin-top:50px;
+    font-size: 18px;
+}
+.login-div2 p span{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.login-div2 p{
+    margin-top:20px;
+}
+.login-div2P1>input{
+    color:#999;
+}
+.login-div2P2>input{
+    color:#999;
+}
+.login-div2P3{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: #E5E5E5;
+    text-align: center;
+    font-size: 20px;
+    border-radius:5px;
+    margin-left:50px;
+    cursor:pointer;
+}
+.login-div2P4{
+    height: 300px;
+}
+.login-div2P4>img{
+    width: 100%;
+    height: 100%;
+}
+.login-div3{
+    width: 550px;
+    margin-top:50px;
+    font-size: 18px;
+}
+.login-div3 p span{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+.login-div3 p{
+    margin-top:20px;
+}
+.login-div3P3{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    background: #E5E5E5;
+    text-align: center;
+    font-size: 20px;
+    border-radius:5px;
+    margin-left:50px;
+    cursor:pointer;
+}
+.login-div3P4{
+    height: 300px;
+}
+.login-div3P4>img{
+    width: 100%;
+    height: 100%;
+}

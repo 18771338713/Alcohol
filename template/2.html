@@ -1,0 +1,41 @@
+<div>
+  <div class="index3-banner"><img src="images/banner.jpg"></div>
+  <div class="index2-center">
+      <div class="index2-center1">
+          <div class="index2-centerDiv1">产品分类</div>
+          <div class="index2-centerDiv2">产品列表<span>›</span></div>
+      </div>
+      <div class="index2-center2">
+          <div class="index2-center2Div1">
+              <ul>
+                  <li ng-repeat="region in arr">{{region}}</li>
+              </ul>
+          </div>
+          <div class="index2-center2Div2">
+            <div class="index2-center2Div2Ul1" ng-show="btn==0">
+                <ul>
+                  <li ng-repeat="i in photo"> 
+                    <p class="index2-center2Div2p1"><img ng-src="images/{{i.img}}.jpg"></p>
+                    <p class="index2-center2Div2p2">{{i.text}}</p>
+                  </li>
+                </ul>
+            </div>
+            <div class="index2-center2Div2Ul2" ng-show="btn==1">
+                <ul>
+                  <li ng-repeat="item in photos"> 
+                    <p class="index2-center2Div2p1"><img ng-src="images/{{item.img}}.jpg"></p>
+                    <p class="index2-center2Div2p2">{{item.text}}</p>
+                  </li>
+                </ul>
+            </div> 
+            <div class="index2-center3">
+                <span ng-click="btn=0">上一页</span>
+                <span ng-click="btn=0" class="{{btn==0?'active':''}}">1</span>
+                <span ng-click="btn=1" class="{{btn==1?'active':''}}">2</span>
+                <span ng-click="btn=1">下一页</span>
+            </div>             
+          </div>
+            
+      </div>
+  </div>
+</div>
